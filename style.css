@@ -224,6 +224,8 @@ body {
   .cardButton:focus {
     box-shadow: 0 4px 8px 0 gray;
     color: black;
+    transition: all .2s ease-in-out;
+    transform: scale(1.05);
   }
   
   .cardPicture {
